@@ -1,0 +1,33 @@
+.contacts__link {
+    &:hover, &:focus {
+        color: $accent-color;
+    }
+}
+
+.contacts {
+    display: flex;
+    margin-left: auto;
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contacts__item {
+    &--left {margin-left: 50px;}
+}
+
+.contacts__link {
+    display: flex;
+    align-items:center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $primary-text-color;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
