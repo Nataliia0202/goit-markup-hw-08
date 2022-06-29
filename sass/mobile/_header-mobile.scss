@@ -1,3 +1,5 @@
+
+
 .menu-button {
     display: inline-block;
     margin: 0;
@@ -5,8 +7,10 @@
     border: none;
     background-color: transparent;
     z-index: 2;
+}
 
-    @media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
+    .menu-button {
         display: none;
     }
 }
@@ -56,10 +60,11 @@
         display: block;
     }
 
-   @media screen and (min-width: 767px) {
+   @media screen and (min-width: 768px) {
     display: none;
    }
 }
+
 
 .site-nav {
   &__link {
@@ -75,13 +80,18 @@
   
 }
 
-.site-nav {
-    font-weight: 500;
-    font-size: 40px;
-    letter-spacing: 0.02em;
-    line-height: 1.17;
-    margin-bottom: 270px;
+@media screen and (max-width:767px) {
+    .site-nav {
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 0.02em;
+        line-height: 1.17;
+        margin-bottom: 270px;
 }
+}
+
+
+
 
 .site-nav__link {
   &:hover, &:focus {
