@@ -1,0 +1,44 @@
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        background-color: #2f303a;
+    background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ), url(../images/heder-desk1x-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    
+    text-align: center;
+    padding: 200px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+     @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+    background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ), url(../images/heder-desk2x-min.jpg);
+
+   
+  }
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .hero__title {
+        font-size: 44px;
+        line-height: 1.36;
+    }
+}

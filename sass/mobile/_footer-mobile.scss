@@ -71,10 +71,15 @@
     
 }
 
-.footer-social {
+@media screen and (max-width: 1199px) {
+    .footer-social {
     text-align: center;
     
 }
+    
+}
+
+
 .footer-social__link {
     display: flex;
     align-items: center;
@@ -122,6 +127,11 @@
     &:hover {border: 1px solid $color-border;}
   
 }
+@media screen and (max-width: 1199px) {
+    .form-footer__titel {
+        text-align: center;
+    }
+}
 
 .form-footer__titel {
   font-weight: 700;
@@ -129,7 +139,7 @@
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
-  text-align: center;
+  
   
   color: $primary-bg-color;
 }
@@ -143,6 +153,15 @@
   height: 24px;
   margin-left: 10px;
 }
+
+@media screen and (max-width:1199px) {
+    .form-footer__button {
+        &--accent {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+}
 .form-footer__button {
     &--accent {
         display: flex;
@@ -154,8 +173,7 @@
         background-color: $accent-color;
         color: $primary-bg-color;
         letter-spacing: 0.06em;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 }
 

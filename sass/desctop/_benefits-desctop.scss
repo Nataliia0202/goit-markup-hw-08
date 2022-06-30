@@ -1,0 +1,6 @@
+@media screen and (min-width: 1200px) {
+    .benefits__item {
+    &:not(:last-child) {margin-right: 30px;}
+    
+}
+}

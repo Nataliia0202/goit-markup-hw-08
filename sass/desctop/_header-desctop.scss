@@ -1,0 +1,27 @@
+
+@media screen and (min-width: 1200px) {
+    .site-nav {
+    margin-left: 93px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .site-nav__item {
+    &:not(:last-child) {
+    margin-right: 50px;
+}
+
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .contacts {
+        margin-left: 305px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contacts__item {
+    &--left {margin-left: 30px;}
+}
+}

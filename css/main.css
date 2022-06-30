@@ -570,10 +570,11 @@ body {
   margin-right: 10px;
 }
 
-.footer-social {
-  text-align: center;
+@media screen and (max-width: 1199px) {
+  .footer-social {
+    text-align: center;
+  }
 }
-
 .footer-social__link {
   display: flex;
   align-items: center;
@@ -617,13 +618,17 @@ body {
   border: 1px solid #EEEEEE;
 }
 
+@media screen and (max-width: 1199px) {
+  .form-footer__titel {
+    text-align: center;
+  }
+}
 .form-footer__titel {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
-  text-align: center;
   color: #ffffff;
 }
 
@@ -633,6 +638,12 @@ body {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 1199px) {
+  .form-footer__button--accent {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .form-footer__button--accent {
   display: flex;
   align-items: center;
@@ -642,8 +653,6 @@ body {
   background-color: #2196f3;
   color: #ffffff;
   letter-spacing: 0.06em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .form-footer__button--accent:hover, .form-footer__button--accent:focus {
@@ -713,9 +722,13 @@ body {
   pointer-events: none;
 }
 
+@media screen and (max-width: 1199px) {
+  .form-modal {
+    width: 450px;
+    height: 609px;
+  }
+}
 .form-modal {
-  width: 450px;
-  height: 609px;
   padding: 40px;
 }
 
@@ -1032,7 +1045,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .menu-container {
     display: flex;
     align-items: center;
@@ -1120,7 +1133,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header-tabl2x-min.jpg);
   }
@@ -1401,10 +1414,6 @@ body {
   margin-right: 10px;
 }
 
-.footer-social {
-  text-align: center;
-}
-
 .footer-social__link {
   display: flex;
   align-items: center;
@@ -1465,7 +1474,6 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
-  text-align: center;
   color: #ffffff;
 }
 
@@ -1484,8 +1492,6 @@ body {
   background-color: #2196f3;
   color: #ffffff;
   letter-spacing: 0.06em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .form-footer__button--accent:hover, .form-footer__button--accent:focus {
@@ -1613,4 +1619,113 @@ body {
 
 .filtr-cards__item:not(:last-child) {
   margin-right: 8px;
+}
+
+@media screen and (min-width: 1200px) {
+  .site-nav {
+    margin-left: 93px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .site-nav__item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts {
+    margin-left: 305px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__item--left {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-color: #2f303a;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heder-desk1x-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heder-desk2x-min.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__list {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__link {
+    width: 170px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tablet {
+    display: flex;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-social {
+    margin-left: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-footer__wrapper {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-footer__button--accent {
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container__footer-page {
+    display: flex;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cards-set {
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cards-set__item {
+    flex-basis: calc(33.3333333333% - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
