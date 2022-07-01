@@ -2,8 +2,8 @@
 @import './utils/reset';
 @import './utils/common';
 @import './components/container';
-@import './mobile/logo-mobile';
-@import './mobile/header-mobile';
+@import './mobile/header-common';
+
 @import './mobile/hero-mobile';
 @import './mobile/benefits-mobile';
 @import './mobile/job-mobile';
@@ -14,8 +14,6 @@
 @import './mobile/modal-form-mobile';
 @import './mobile/portfolio-mobile';
 
-@import './tablet/logo-tablet';
-@import './tablet/heder-tablet';
 @import './tablet/hero-tablet';
 @import './tablet/benefits-tablet';
 @import './tablet/team-tablet';
@@ -23,7 +21,6 @@
 @import './tablet/footer-tablet';
 @import './tablet/portfolio-tablet';
 
-@import './desctop/header-desctop';
 @import './desctop/hero-desctop';
 @import './desctop/benefits-desctop';
 @import './desctop/clients-desctop';

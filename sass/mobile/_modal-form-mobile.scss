@@ -1,6 +1,7 @@
 @media screen and (max-width: 1199px) {
     .form-modal {
-        width: 450px;
+        width: 100%;
+        max-width: 450px;
         height: 609px;
 }
 }
@@ -85,7 +86,8 @@
 }
 @media screen and (max-width: 1199px) {
     .form-modal__textarea {
-        width: 370px;
+        width: 100%;
+        max-width: 370px;
     }
 }
 
@@ -182,6 +184,8 @@
     background-color: $accent-color;
     color: $primary-bg-color;
 }
+
+
 .form-modal__button {
     &:hover, &:focus {
         background-color: $accent-color-btn;

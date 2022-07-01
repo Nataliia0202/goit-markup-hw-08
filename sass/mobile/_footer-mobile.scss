@@ -2,19 +2,20 @@
     background-color: $background-color-footer;
     padding: 60px 0;
 }
-// .container__footer-page {
-//     display: flex;
-//     align-items: baseline;
-// }
+
 .logo__text {
     &--accent {color: $primary-bg-color;}
     
 }
 
-.footer-wrapper {
-    text-align: center;
-    margin-bottom: 60px;
-}
+// @media screen and (max-width: 1199){
+//     .footer-wrapper {
+//         text-align: center;
+//         margin-bottom: 60px;
+//     }
+// }
+
+
 
 .footer-address__link {
 

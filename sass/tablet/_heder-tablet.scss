@@ -75,27 +75,24 @@
   
 }
 
-// .contacts__link {
-//     display: flex;
-//     align-items:center;
-//     padding-top: 32px;
-//     padding-bottom: 32px;
 
-
-//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
 
 .contacts__icon {
     fill: currentColor;
     margin-right: 10px;
 }
 
-
-.site-nav {
-  &__link {
+@media screen and (min-width: 768px) {
+  .site-nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+}
+.site-nav {
+  &__link {
+    display: block;
+    
 
     color: $title-text-color;
     text-decoration: none;
