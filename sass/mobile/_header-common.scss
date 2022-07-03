@@ -60,12 +60,21 @@
         align-items: center;
     }
     .menu-button {
-        display: inline-block;
+        display: block;
+        border: none;
+        background-color: transparent;
+        
+    }
+
+    .menu-close {
+        display: block;
         border: none;
         background-color: transparent;
         z-index: 2;
+        position: absolute;
+        top: 10px;
+        right: 15px;
     }
-
 
     
     .menu-button .icon-cross {
@@ -82,7 +91,8 @@
     .menu-button.is-open .icon-menu {
         display: block;
     }
-    .menu-button:hover, .menu-button:focus {
+    .menu-button:hover, .menu-button:focus, 
+    .menu-close:hover, .menu-close:focus {
         fill: $accent-color;
     }
     .icon-cross {
@@ -110,6 +120,7 @@
 
         
     }
+    
 
     .menu-container.is-open {
         display: flex;
@@ -117,7 +128,6 @@
         
     }
 
-    
 
     .site-nav__link {
         display: block;
@@ -220,7 +230,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .menu-button {
+    .menu-button, .menu-close {
         display: none;
     }
 }

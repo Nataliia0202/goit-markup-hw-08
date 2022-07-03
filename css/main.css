@@ -150,10 +150,19 @@ body {
   }
 
   .menu-button {
-    display: inline-block;
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+
+  .menu-close {
+    display: block;
     border: none;
     background-color: transparent;
     z-index: 2;
+    position: absolute;
+    top: 10px;
+    right: 15px;
   }
 
   .menu-button .icon-cross {
@@ -172,7 +181,8 @@ body {
     display: block;
   }
 
-  .menu-button:hover, .menu-button:focus {
+  .menu-button:hover, .menu-button:focus,
+.menu-close:hover, .menu-close:focus {
     fill: #2196f3;
   }
 
@@ -288,7 +298,7 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .menu-button {
+  .menu-button, .menu-close {
     display: none;
   }
 }
