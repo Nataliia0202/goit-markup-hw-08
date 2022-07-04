@@ -113,7 +113,7 @@
     @media screen and (max-width:767px){
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 40px;
+        margin-bottom: -15px;
         
     }
     @media screen and (min-width: 768px) {
@@ -127,15 +127,22 @@
     letter-spacing: 0.03em;
 }
 
-.filtr-cards__item {
-    &:not(:last-child) {
-        margin-right: 8px;
-    }
-}
-
 @media screen and (max-width: 767px) {
-    .filtr-cards__button {
+    .filtr-cards__item  {
         margin-bottom: 15px;
     }
 }
 
+
+.filtr-cards__item {
+    &:not(:last-child) {
+        margin-right: 8px;
+        
+    }
+}
+
+// @media screen and (max-width: 767px) {
+//     .filtr-cards__button {
+//         margin-bottom: 15px;
+//     }
+// }

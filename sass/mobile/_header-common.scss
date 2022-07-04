@@ -22,6 +22,8 @@
 @media screen and (max-width: 1199px){
     .logo {
         font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 }
 
@@ -33,11 +35,7 @@
 
 @media screen and (max-width: 767px) {
     .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        
         position: relative;
         
     }
@@ -327,6 +325,10 @@
     border-radius: 2px;
     background-color: $accent-color;
     }
+    }
+
+    .site-nav__link--current {
+    color: $accent-color;
 }
     
 }
