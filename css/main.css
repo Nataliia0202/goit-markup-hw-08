@@ -251,6 +251,7 @@ body {
   .list-mobaile {
     display: flex;
     flex-wrap: wrap;
+    gap: 5px 10px;
   }
 
   .list-mobaile__item {
@@ -1806,6 +1807,11 @@ body {
   .container__footer-page {
     display: flex;
     align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-footer__input {
+    width: 358px;
   }
 }
 @media screen and (min-width: 1200px) {
