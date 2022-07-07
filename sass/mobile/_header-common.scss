@@ -123,6 +123,7 @@
     .menu-container.is-open {
         display: flex;
         justify-content: space-between;
+        overflow: auto;
         
     }
 
