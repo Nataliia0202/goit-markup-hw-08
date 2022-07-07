@@ -257,11 +257,15 @@
 @media screen and (max-width: 767px) {
     .contacts__link--big {
         font-weight: 500;
-        font-size: 34px;
-        line-height: 1.17;
         color: $accent-color;
         margin-bottom: 32px;
-    
+    }
+}
+
+@media screen and (min-width:480) and (max-width: 767px) {
+    .contacts__link--big {
+        font-size: 34px;
+        line-height: 1.17;
     }
 }
 
